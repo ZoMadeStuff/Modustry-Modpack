@@ -24,5 +24,5 @@ Importent Changes:
   1) I've made big balance changes.
   2) I've changed recipes and features to combine materials from other mods.
   3) I've added some of my own small features to make the modpack have more of a complete feel.
-  4) I've deleted some features which were not fitting to the modpack
+  4) I've deleted some features which were not fitting in the modpack
   5) I've added 4 new original maps with special challanges (This is the thing l've worked on the most)
