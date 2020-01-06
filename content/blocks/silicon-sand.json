@@ -1,0 +1,7 @@
+{
+    "type": "Floor",
+    "name": "Silicon-rich Sand",
+	"variants": 3,
+	"itemDrop":"silicon-rich-sand",
+	"playerUnminable":1
+}

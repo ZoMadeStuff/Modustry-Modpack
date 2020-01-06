@@ -1,0 +1,62 @@
+{
+	"type": "DoubleTurret",
+	"name": "Meta Cannon",
+	"description": "A large high firerate multipurpose cannon.",
+	"health": 4000,
+	"size": 4,
+	"reload": 5,
+	"range": 500,
+	"recoil": 5,
+	"ammoUseEffect": "shellEjectBig",
+	"shootEffect": "bigShockwave",
+	"smokeEffect": "shootBigSmoke",
+	"shootSound": "bigshot",
+	"inaccuracy": 5,
+	"rotatespeed": 1.2,
+	"ammo": {
+		"thorium": {
+			"speed": 6,
+			"damage": 340,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 300
+		},
+		"micro-chip": {
+			"speed": 6,
+			"damage": 500,
+			"incendAmount": 20,
+			"incendSpread": 20,
+			"incendChance": 10,
+			"homingPower": 1,
+			"homingRange": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 100
+		},
+		"surge-alloy": {
+			"speed": 6,
+			"lightining" : 40,
+			"lightningLength" : 20,
+			"damage": 400,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 100
+		}
+	},
+	"requirements": [
+		{ "item": "metasteel", "amount": 2000 },
+		{ "item": "copper", "amount": 10000 },
+		{ "item": "phase-fabric", "amount": 1000 },
+		{ "item": "reverie-crystal", "amount": 800 },
+		{ "item": "lead", "amount": 10000 },
+		{ "item": "silicon", "amount": 2000 }
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

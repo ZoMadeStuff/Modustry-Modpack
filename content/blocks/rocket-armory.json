@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Rocket Armory",
+	"description": "Creates Rockets to destroy enemies.",
+	"outputItem": {"item": "rocket", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 2},
+				{ "item": "hecodium", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "flak-cannon",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

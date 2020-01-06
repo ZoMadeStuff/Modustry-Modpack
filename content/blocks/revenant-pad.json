@@ -1,0 +1,19 @@
+{
+	"name": "Revenant Mech Pad",
+	"description": "Transform into the Revenant mech.",
+	"type": "MechPad",
+	"mech": "revenant-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "glaive-ship-pad",
+	"requirements": [
+		{ "item": "hecodium", "amount": 500 },
+		{ "item": "steel", "amount": 1000 },
+    	{ "item": "silicon", "amount": 800 },
+    	{ "item": "plastanium", "amount": 300 },
+    	{ "item": "surge-alloy", "amount": 100 }
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "MechPad",
+    "mech": "stalker",
+    "name": "Stalker Mech Drop Point",
+    "description": "Send a request to the orbital mothership to send totally legal model of Stalker Mech.",
+    "size": 2,
+    "produceTime": 1500,
+    "requirements": [
+        { "item": "copper", "amount": 275},
+        { "item": "lead", "amount": 450},
+		{ "item": "iron", "amount": 250},
+		{ "item": "plastic", "amount": 200}
+    ],
+	"consumes": {
+         "power": 1.4,
+    },
+    "category": "upgrade",
+    "research": "delta-mech-pad"
+}

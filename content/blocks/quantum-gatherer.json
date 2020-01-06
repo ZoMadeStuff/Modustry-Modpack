@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Quantum Gatherer",
+	"description": "Gathers quantum particles using the density of gold and lead.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "quantum-particles", "amount": 5},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 30.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 10.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 150 },
+		{ "item": "pure-gold", "amount": 150 },
+		{ "item": "silicon", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "ore-condenser",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Shield Ship Pad",
+	"description": "Transform into the Shield Ship.With high build speed and healing lasers.",
+	"type": "MechPad",
+	"mech": "shield-ship",
+	"size": 3,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "tau-mech-pad",
+	"requirements": [
+		{ "item": "hecodium", "amount": 40 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 50 },
+	]
+}

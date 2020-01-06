@@ -1,0 +1,42 @@
+{
+	name: Silicon Sieve
+	description: Filters silicon-rich sand.
+	type: GenericCrafter
+	
+	size: 1
+	health: 16
+	craftTime: 60
+	
+	hasPower: false
+	hasLiquids: false
+	hasItems: true
+	consumes: {
+		items: {
+			items: [
+				{
+					item: silicon-rich-sand
+					amount: 6
+				}
+			]
+		}
+	}
+	
+	outputItem: { 
+		item: silicon
+		amount: 1 
+	}
+	
+	requirements: [
+		{
+			item: copper
+			amount: 72
+		},
+		{
+			item: iron
+			amount: 40
+		}
+	]
+
+	category: crafting
+	research: recmetal-forge
+}

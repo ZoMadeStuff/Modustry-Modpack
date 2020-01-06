@@ -1,0 +1,23 @@
+{
+	type: Drill
+	name: Scrabbler
+	description: Small drill made out of salvaged metal.
+		
+	size: 1
+	health: 16
+	tier: 1
+	drillTime: 600
+	hasLiquids: false
+	isBoostable: false
+	liquidBoostIntensity: 1
+	
+	requirements: [
+		{ 
+			item: recmetal
+			amount: 4 
+		}
+	]
+		
+	category: production
+	alwaysUnlocked: true
+}

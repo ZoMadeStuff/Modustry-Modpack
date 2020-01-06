@@ -1,0 +1,21 @@
+{
+	"name": "Quantum Mender",
+	"description": "Mends blocks at the quantum level.",
+	"type": "MendProjector",
+	"health": 2000,
+	"size": 3,
+	"reload": 200,
+	"healPercent": 35,
+	"range": 250,
+	"consumes": {
+		"power": 4
+	},
+	"requirements": [
+		{ "item": "quantum-phase", "amount": 200 },
+		{ "item": "micro-chip", "amount": 100 },
+		{ "item": "pure-gold", "amount": 100 },
+		{ "item": "silicon", "amount": 1400 }
+	],
+	"category": "defense",
+	"research": "phase-wall"
+}

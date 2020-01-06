@@ -1,0 +1,25 @@
+{
+    "type": "MechPad",
+    "mech": "yamato",
+    "name": "Yamato Construction Facility",
+    "description": "MELTDOWN SHIP MELTDOWN SHIP",
+    "size": 4,
+	"liquidCapacity": 60,
+    "produceTime": 3500,
+    "requirements": [
+        { "item": "copper", "amount": 8000},
+        { "item": "reverie-crystal", "amount": 100},
+        { "item": "graphite", "amount": 2750},
+        { "item": "silicon", "amount": 1750},
+		{ "item": "surge-alloy", "amount": 1200}
+    ],
+    "consumes": {
+         "power": 12.0,
+         "liquid": {
+              "liquid":"cryofluid",
+			  "amount":0.2
+         }
+    },
+    "category": "upgrade",
+    "research": "glaive-ship-pad"
+}

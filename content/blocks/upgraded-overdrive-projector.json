@@ -1,0 +1,25 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Upgraded Overdrive Projector",
+    "size": 3,
+    "health": 200,
+    "range": 120,
+    "speedBoost": 2,
+    "phaseRangeBoost": 30,
+    "speedBoostPhase": 1,
+    "category": "effect",
+    "requirements": [
+        {"item": "hecodium", "amount": 300},
+        {"item": "silicon", "amount": 125},
+        {"item": "plastanium", "amount": 150}
+    ],
+    "consumes": {
+		"power": 5,
+		"items": {
+			"items": [ {"item": "phase-fabric", "amount": 1} ],
+			"booster": true,
+			"optional": true
+		}
+	},
+    "research": "overdrive-projector"
+}

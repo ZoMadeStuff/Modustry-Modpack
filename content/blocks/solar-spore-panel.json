@@ -1,0 +1,15 @@
+{
+	"type": "SolarGenerator",
+	"name": "Solar Spore Panel",
+	"description": "Generates more power than standard solar panels.",
+	"health": 100,
+	"hasPower": true,
+	"powerProduction": 0.09333,
+	"requirements": [
+		{ "item": "titanium", "amount": 10 },
+		{ "item": "spore-silicon", "amount": 12 }
+	],
+	"category": "power",
+	"research": "solar-panel",
+	"color": "F2A7C2"
+}

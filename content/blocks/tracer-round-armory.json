@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Tracer Armory",
+	"description": "Creates Tracer rounds that track enemies.",
+	"outputItem": {"item": "tracer-round", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1 },
+				{ "item": "copper", "amount": 2}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "burst-turret",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

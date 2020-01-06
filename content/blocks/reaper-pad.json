@@ -1,0 +1,19 @@
+{
+	"name": "Reaper Mech Pad",
+	"description": "Transform into the Reaper mech.",
+	"type": "MechPad",
+	"mech": "reaper-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "glaive-ship-pad",
+	"requirements": [
+		{ "item": "lead", "amount": 500 },
+		{ "item": "silicon", "amount": 400 },
+    	{ "item": "metasteel", "amount": 2000 },
+    	{ "item": "reverie-crystal", "amount": 300 },
+    	{ "item": "surge-alloy", "amount": 100 }
+	]
+}

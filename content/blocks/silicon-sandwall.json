@@ -1,0 +1,5 @@
+{
+    "type": "StaticWall",
+    "name": "Silicon-rich Wall",
+	"variants": 2
+}

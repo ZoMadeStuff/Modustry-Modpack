@@ -1,0 +1,31 @@
+{
+    "type": "ChargeTurret",
+	"name": "Tesla",
+	"description": "An expressly anti air electric weapon.",
+    "targetAir": true,
+    "targetGround": false,
+    "hasPower": true,
+    "powerUse": 8.0,
+    "shootType": "arc",
+    "health": 1000,
+    "size": 1,
+    "inaccuracy": 180,
+    "reload": 1,
+	"shots": 1,
+	"spread": 35,
+    "recoil": 0,
+    "shootCone": 360,
+    "rotateSpeed": 30,
+    "range": 115,
+    "shootEffect": "lightningShoot",
+	"requirements": [
+		{ "item": "pure-gold", "amount": 100 },
+		{ "item": "micro-chip", "amount": 100 },
+		{ "item": "quantum-particles", "amount": 100 },
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "silicon", "amount": 250 }
+	],
+    "category": "turret",
+    "shootSound": "spark",
+    "research": "meltdown"
+}

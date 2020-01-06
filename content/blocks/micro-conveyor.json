@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": Micro conveyor",
+	"description": "Powered by thousands of micro chips.",
+	"requirements": [
+		{"item": "titanium", "amount": 2},
+		{"item": "copper", "amount": 1},
+		{"item": "lead", "amount": 1},
+		{"item": "micro-chip", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.24,
+	"research": "surge-alloy-conveyor"
+}

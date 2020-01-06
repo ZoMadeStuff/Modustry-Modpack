@@ -1,0 +1,19 @@
+{
+    "type": "MechPad",
+    "mech": "reaver",
+    "name": "Reaver Assault Gunship Pad",
+    "description": "Reconstruct your ship into a superior anti-ground aerial unit.",
+    "size": 3,
+    "produceTime": 1750,
+    "requirements": [
+        { "item": "lead", "amount": 2500},
+        { "item": "hecodium", "amount": 850},
+        { "item": "graphite", "amount": 600},
+        { "item": "plastanium", "amount": 475}
+    ],
+    "consumes": {
+         "power": 3.25,
+    },
+    "category": "upgrade",
+    "research": "glaive-ship-pad"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "MechPad",
+    "mech": "sister",
+    "name": "Sister Ship Pad",
+    "description": "Equivalently exchange Dart for a Sister.",
+    "size": 2,
+    "produceTime": 1500,
+    "requirements": [
+        { "item": "copper", "amount": 175},
+        { "item": "lead", "amount": 125}
+    ],
+    "category": "upgrade",
+    "research": "trident-ship-pad"
+}
