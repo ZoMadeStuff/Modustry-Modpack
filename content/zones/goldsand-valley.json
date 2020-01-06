@@ -1,0 +1,25 @@
+{
+	"name": "Goldsand Valley",
+	"description": "You sent to an asolated valley full of gold-rich sand. but its seems that the enermy had already found this place and its sending units to takeover. Be prepared...",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 300},
+    	{"item": "titanium", "amount": 200},
+		{"item": "silicon", "amount": 200},
+    	{"item": "graphite", "amount": 200}
+    ],
+    "conditionWave": 15,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "tarFields", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "oil-extractor"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "scrap", "titanium", "chirunium", "thorium", "iron", "reverie-crystal-raw", "gold-powder"]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Frosted Lakeside",
+	"description": "A lake, formed within the frigid reaches of the mountains.\nThe enemy is present here, though the rough terrain of the mountains will slow them down at first.\n\nScout drones report deposits of Chirunium, a material that has unusual cryogenic properties.\nObtain what you can of this new material, and discover its uses.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 350},
+    	{"item": "lead", "amount": 200},
+    	{"item": "graphite", "amount": 150}
+    ],
+    "conditionWave": 15,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "frozenForest", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "ZoneWave",
+    		"zone": "stainedMountains", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "turbine-generator"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "scrap", "iron", "titanium", "chirunium"]
+}

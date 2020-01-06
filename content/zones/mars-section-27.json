@@ -1,0 +1,38 @@
+{
+	"name": "Mars: section 27",
+	"description": "You are being sent to mars to establish a base in a silicon-rich area. Mars is a dead planet, you will have to make your own organic fuel",
+	"loadout": "basicNucleus",
+    "startingItems": [
+    	{"item": "copper", "amount": 300},
+    	{"item": "titanium", "amount": 200},
+		{"item": "silicon", "amount": 100},
+		{"item": "metaglass", "amount": 100},
+    	{"item": "graphite", "amount": 300}
+    ],
+    "conditionWave": 15,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "goldsand-valley", 
+    		"wave": 30
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "deep-digger"
+    	},
+		{
+    		"type": "Unlock",
+    		"block": "plastic-forge"
+    	},
+		{
+    		"type": "Unlock",
+    		"block": "metasteel-forge"
+    	}
+		{
+    		"type": "Unlock",
+    		"block": "spore-press"
+    	}
+    ],
+    "resources": ["copper", "lead", "iron", "sand", "silicon-rich-sand", "scrap", "titanium", "chirunium", "thorium", "reverie-crystal-raw", "gold-powder"]
+}

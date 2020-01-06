@@ -1,0 +1,28 @@
+{
+	"name": "Evosaki Islands",
+	"description": "Evosaki Islands are small ground-rich islands in the middle of the ocean. there is no way to transfer between the islands, so everything here is done off-ground",
+	"loadout": "basicNucleus",
+    "startingItems": [
+    	{"item": "copper", "amount": 100},
+    	{"item": "titanium", "amount": 100},
+    	{"item": "metaglass", "amount": 150}
+    ],
+    "conditionWave": 30,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "frosted-lakeside", 
+    		"wave": 30
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "large-mass-driver"
+    	},
+        {
+            "type": "Unlock",
+            "block": "scatter-big"
+        }
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "scrap", "iron", "titanium", "chirunium", "thorium", "reverie-crystal-raw"]
+}

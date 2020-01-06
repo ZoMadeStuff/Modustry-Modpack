@@ -1,0 +1,40 @@
+{
+	"name": "-10km Hell Caverns",
+	"description": "10,000 meters under a volcano. No water can be find on surface nor underground but the air itself is hydrated. The enemy headquarters is placed in those rich caves. Destroy their core and finish this war",
+	"loadout": "basicNucleus",
+    "startingItems": [
+    	{"item": "copper", "amount": 400},
+    	{"item": "lead", "amount": 200},
+    	{"item": "metaglass", "amount": 200}
+    ],
+    "conditionWave": 30,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "mars-section-27", 
+    		"wave": 30
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "metasteel-conveyor"
+    	},
+        {
+            "type": "Unlock",
+            "block": "thermal-generator"
+        },
+        {
+            "type": "Unlock",
+            "block": "meltdown"
+        },
+        {
+            "type": "Unlock",
+            "block": "force-projector"
+        },
+        {
+            "type": "Unlock",
+            "block": "condenser"
+        }
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "silicon-rich-sand", "scrap", "iron", "titanium", "chirunium", "thorium", "reverie-crystal-raw", "gold-powder"]
+}
