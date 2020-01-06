@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "silicon-rich Sand",
+	"description": "Special sand found only on mars. high precentage of silicon",
+	"cost": 1.0,
+	"color": "BABABA"
+}

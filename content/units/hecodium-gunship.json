@@ -1,0 +1,23 @@
+{
+	"type": "revenant",
+	"name": "Hecodium Gunship",
+	"description": "Generally annoying and flashy.",
+	"speed": 0.1,
+    "mass": 5,
+	"flying": true,
+	"rotateWeapon": true,
+	"health": 500,
+	"engineOffset": 5.5,
+	"engineColor": "7575c8",
+	"range": 50,
+	"shootCone": 40,
+	"attackLength": 50,
+
+	"weapon": {
+		"name": "chrome-blaster",
+		"length": 1,
+		"reload": 50,
+		"alternate": true,
+		"bullet": "lightning"
+	}
+}

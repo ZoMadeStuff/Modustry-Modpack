@@ -1,0 +1,37 @@
+{
+    "type": "mech",
+    "name": "Yamato"
+    "description": "510 years of experiments on a Meltdown turrets led us to this pinnacle of spacecraft. Armed with amplified version of Meltdown, that does not overheat, comes with pre-installed internal impact reactor, that fuels the Meltdown onboard. And best part is that this abomination can actually move!",
+    "speed": 0.2,
+    "range": 80,
+    "maxVelocity": 2.4,
+    "flying":true,
+    "drag": 0.07,
+    "engineSize": 6,
+    "engineOffset": 15,
+    "hitsize": 20,
+    "mass": 10,
+	"turnCursor": false,
+    "health": 5000,
+    "itemCapacity": 600,
+    "buildpower": 4.0,
+    "cellTrnsY": 1,
+    "engineColor": "ff7f4c",
+    "weaponOffsetY": 0,
+    "baseRotateSpeed": 0.06,
+    "rotatespeed": 0.01,
+    "weapon":{
+        "name": "meltdown",
+        "length":4.0,
+        "width":0.0,
+        "reload":900,
+        "shots":200,
+		"shotDelay":3,
+        "spacing": 1,
+        "alternate": true,
+		"ignoreRotation": false,
+        "ejectEffect": "none",
+        "bullet": "meltdownLaser",
+        "shootSound": "beam"
+    }
+}

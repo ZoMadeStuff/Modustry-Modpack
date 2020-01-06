@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Hecodium",
+	"description": "An alloy of Titanium and Lead.",
+	"cost": 1.2,
+	"color": "919fe7"
+}

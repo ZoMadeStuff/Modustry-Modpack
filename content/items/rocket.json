@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Rocket",
+	"description": "Test Bullet.",
+	"cost": 1,
+	"color": "7575c8"
+}

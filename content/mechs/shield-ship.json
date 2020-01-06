@@ -1,0 +1,23 @@
+{
+	"name": "Shield",
+	"description": "Support airship powered by a Hecodium core.",
+	"speed": 0.5,
+	"drag": 0.12,
+	"mass": 9,
+	"drillPower": 4,
+	"mineSpeed": 4,
+	"buildPower": 2.5,
+	"engineColor": "7575c8",
+	"engineOffset": 12,
+	"itemCapacity": 60,
+	"flying": true,
+	"health": 300,
+	"weaponOffsetX": 5.3,
+	"weapon": {
+		"name": "hecodium-healer",
+		"length": 1,
+		"reload": 40,
+		"alternate": true,
+		"bullet": "healBullet"
+	}
+}

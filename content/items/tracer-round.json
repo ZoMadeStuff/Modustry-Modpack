@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Tracer Round",
+	"description": "Test Bullet.",
+	"cost": 1,
+	"color": "7575c8"
+}

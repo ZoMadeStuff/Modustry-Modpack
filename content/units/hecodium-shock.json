@@ -1,0 +1,26 @@
+{
+	"type": "Titan",
+	"name": "Hecodium Shocker",
+	"description": "Generally annoying and flashy.",
+	"speed": 0.3,
+    "mass": 1,
+	"flying": false,
+	"rotateWeapon": true,
+	"rotateSpeed": 0.1,
+	"health": 300,
+	"engineOffset": 5.5,
+	"range": 10,
+	"shootCone": 10,
+	"attackLength": 60,
+
+	"weapon": {
+		"name": "flamethrower",
+		"length": 0.5,
+		"reload": 100,
+		"inaccuracy": 0,
+		"shots": 2,
+		"alternate": true,
+		"roundRobin": true,
+		"bullet": "lightning"
+	}
+}
