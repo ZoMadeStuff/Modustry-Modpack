@@ -1,0 +1,38 @@
+{
+	"type": "Separator",
+	"name": "Deep Digger",
+	"description": "Pulls up raw ore from the ground.",
+	"liquidCapacity": 50,
+	"results": [
+			{"item": "raw-ore", "amount": 100},
+			{"item": "iron", "amount": 10},
+			{"item": "graphite", "amount": 10},
+			{"item": "coal", "amount": 20},
+			{"item": "titanium", "amount": 10}
+	],
+
+	"size": 3,
+	"spinnerLength": 0,
+	"spinnerSpeed": 6,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.45
+		}
+	},
+	"requirements": [
+		{ "item": "steel", "amount": 150 },
+		{ "item": "hecodium", "amount": 200 },
+		{ "item": "silicon", "amount": 150 }
+	],
+	"category": "production",
+	"research": "laser-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "AP Armory",
+	"description": "Creates AP Rounds to pierce enemies.",
+	"outputItem": {"item": "ap-round", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 1 },
+				{ "item": "hecodium", "amount": 2}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "hecodium", "amount": 40 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "incendiary-armory",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

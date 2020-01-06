@@ -1,0 +1,83 @@
+{
+  "type": "ItemTurret",
+  "name": "Hecodium Rail",
+  "description": "A small prototype of hecodium weapons.",
+  "health": 200,
+  "size": 2,
+  "reload": 350,
+  "shootCone": 10,
+  "range": 300,
+  "ammoUseEffect": "lancerLaserChargeBegin",
+  "inaccuracy": 0.01,
+  "rotatespeed": 10,
+  "targetGround": false,
+  "ammo": {
+    "hecodium": {
+      "speed": 30.0,
+      "damage": 125,
+      "bulletWidth": 7,
+      "bulletHeight": 9,
+      "shootEffect": "lancerLaserShoot",
+      "smokeEffect": "lancerLaserShootSmoke",
+      "collides": true,
+      "collidesTiles": false,
+      "collidesGround": false,
+      "collidesAir": true,
+      "pierce": true,
+      "ammoMultiplier": 2,
+      "lifetime": 245
+    },
+    "lead-round": {
+      "speed": 30.0,
+      "damage": 150,
+      "bulletWidth": 7,
+      "bulletHeight": 9,
+      "shootEffect": "lancerLaserShoot",
+      "smokeEffect": "lancerLaserShootSmoke",
+      "collides": true,
+      "collidesTiles": false,
+      "collidesGround": false,
+      "collidesAir": true,
+      "pierce": true,
+      "reloadMultiplier": 1.3,
+      "ammoMultiplier": 4,
+      "drag": 0.02
+    },
+    "heavy-round": {
+      "speed": 30.0,
+      "damage": 250,
+      "bulletWidth": 7,
+      "bulletHeight": 9,
+      "shootEffect": "lancerLaserShoot",
+      "smokeEffect": "lancerLaserShootSmoke",
+      "collides": true,
+      "collidesTiles": false,
+      "collidesGround": false,
+      "collidesAir": true,
+      "pierce": true,
+      "reloadMultiplier": 1,
+      "ammoMultiplier": 3
+    },
+    "ap-round": {
+      "speed": 30,
+      "damage": 200,
+      "bulletWidth": 7,
+      "bulletHeight": 9,
+      "shootEffect": "lancerLaserShoot",
+      "smokeEffect": "lancerLaserShootSmoke",
+      "collides": true,
+      "collidesTiles": false,
+      "collidesGround": false,
+      "collidesAir": true,
+      "pierce": true,
+      "reloadMultiplier": 1.3,
+      "ammoMultipier": 3
+    }
+  },
+  "requirements": [
+    { "item": "hecodium", "amount": 40 },
+    { "item": "copper", "amount": 70 }
+  ],
+  "category": "turret",
+  "research": "hecodium-forge"
+}

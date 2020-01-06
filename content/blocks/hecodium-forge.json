@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Hecodium Forge",
+	"description": "Combines Titanium and Lead to produce Hecodium.",
+	"outputItem": {"item": "hecodium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "919fe7",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 2 },
+				{ "item": "titanium", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "lead", "amount": 60 },
+		{ "item": "silicon", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

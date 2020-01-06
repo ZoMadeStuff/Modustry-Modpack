@@ -1,0 +1,25 @@
+{
+    "type": "PowerTurret",
+    "name": "Aerial Arc",
+    "Description": "Like an Arc, but for Anti-Air.",
+    "health": 260,
+    "category": "turret",
+    "size": 1,
+    "reload": 35,
+    "shootCone": 40,
+    "shootType": "arc",
+    "rotateSpeed": 20,
+    "powerUse": 1.5,
+    "targetAir": true,
+    "targetGround": false,
+    "range": 90,
+    "shootEffect": "lightningShoot",
+    "heatColor": "Color.red",
+    "recoil": 1,
+    "shootSound": "spark",
+    "research": "arc",
+    "requirements": [
+        {"item": "copper", "amount": 35},
+        {"item": "lead", "amount": 50}
+    ]
+}

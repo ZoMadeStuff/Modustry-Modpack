@@ -1,0 +1,40 @@
+{
+	"type": "Separator",
+	"name": "Blast Deep Digger",
+	"description": "Pulls up raw ore from the ground using rapids blasts.",
+	"liquidCapacity": 80,
+	"results": [
+			{"item": "raw-ore", "amount": 101},
+			{"item": "thorium", "amount": 1},
+			{"item": "graphite", "amount": 10},
+			{"item": "iron", "amount": 10},
+			{"item": "coal", "amount": 20},
+			{"item": "titanium", "amount": 10}
+	],
+
+	"size": 3,
+	"spinnerLength": 0,
+	"spinnerSpeed": 8,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 25,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 10.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.7
+		}
+	},
+	"requirements": [
+		{ "item": "hecodium", "amount": 400 },
+		{ "item": "pure-gold", "amount": 50 },
+		{ "item": "steel", "amount": 250 },
+		{ "item": "silicon", "amount": 200 }
+	],
+	"category": "production",
+	"research": "deep-digger",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

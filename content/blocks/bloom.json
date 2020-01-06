@@ -1,0 +1,72 @@
+{
+	"type": "ItemTurret",
+	"name": "Bloom",
+	"description": "A small turret, fairly similar to the Duo.\nFast, but somewhat inaccurate.",
+	"health": 600,
+	"size": 1,
+	"reload": 7.5,
+	"ammoUseEffect": "shellEjectSmall",
+	"recoil": 1.5,
+	"range": 116,
+	"inaccuracy": 6,
+	"rotatespeed": 16,
+	"targetAir": true,
+	"targetGround": true,
+	"category": "turret",
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming",
+		"reverie-crystal": {
+			"speed": 2.5,
+			"lifetime": 60,
+			"damage": 12,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"frontColor": "d45da6",
+			"backColor": "bf2195",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullet": {
+				"speed": 3,
+				"lifetime": 10,
+				"damage": 5,
+				"splashDamage": 3,
+				"splashDamageRadius": 16,
+				"bulletWidth": 4,
+				"bulletHeight": 5,
+				"collides": false,
+				"despawnEffect": "smoke",
+				"frontColor": "d45da6",
+				"backColor": "99008f"
+			},
+			"fragVelocityMin": 0.4,
+			"fragVelocityMax": 1.4,
+			"fragBullets": 12,
+			"status": "none"
+		},
+		"chirunium": {
+			"speed": 2.5,
+			"lifetime": 60,
+			"damage": 9,
+			"ammoMultiplier": 3,
+			"reloadMultiplier": 1.2,
+			"splashDamage": 1,
+			"splashDamageRadius": 20,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"frontColor": "eff7ff",
+			"backColor": "a0d0f8",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"status": "freezing",
+			"statusDuration": 900
+		}	
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 40 },
+		{ "item": "metasteel", "amount": 25}
+	],
+	"research": "duo"
+}

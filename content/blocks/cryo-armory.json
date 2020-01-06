@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Cryo Armory",
+	"description": "Creates Cryo Rounds to slow enemies.",
+	"outputItem": {"item": "cryo-round", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"liquidCapacity": 10,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "metaglass", "amount": 2 }
+			]
+		},
+		"liquid": {"liquid": "cryofluid", "amount": 1}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "burst-turret",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

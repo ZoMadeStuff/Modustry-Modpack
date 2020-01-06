@@ -1,0 +1,37 @@
+{
+	"type": "GenericSmelter",
+	"name": "Micro Chip Assembler",
+	"description": "Combines a multitude of parts into tiny chips.",
+	"outputItem": {"item": "micro-chip", "amount": 5},
+	"size": 3,
+	"itemCapacity": 30,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 600,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.5,
+		"items": {
+			"items": [
+				{"item": "pure-gold", "amount": 2},
+				{"item": "quantum-particles", "amount": 5},
+				{"item": "hecodium", "amount": 5},
+				{"item": "graphite", "amount": 5},
+				{"item": "spore-silicon", "amount": 10},
+			]
+		}
+	},
+	"requirements": [
+		{"item": "pure-gold", "amount": 50},
+		{"item": "quantum-particles", "amount": 50},
+		{"item": "copper", "amount": 500},
+		{"item": "hecodium", "amount": 500},
+		{"item": "thorium", "amount": 50},
+		{"item": "graphite", "amount": 100},
+		{"item": "spore-silicon", "amount": 100},
+	],
+	"category": "crafting",
+	"research": "quantum-gatherer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

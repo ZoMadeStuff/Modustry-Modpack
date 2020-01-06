@@ -1,0 +1,12 @@
+{
+    "type": "Floor",
+    "name": "Shallow Cryo Liquid",
+	"speedMultiplier": 0.5,
+	"walkEffect":"freezing",
+	"drownUpdateEffect":"freezing",
+	"status":"freezing",
+	"liquidDrop":"cryofluid",
+	"isLiquid":true,
+	"variants":1,
+	"playerUnminable":1
+}

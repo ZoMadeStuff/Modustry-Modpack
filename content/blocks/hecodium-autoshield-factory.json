@@ -1,0 +1,25 @@
+{
+  "name": "Ghost Factory",
+  "description": "Makes automated upgraded spirit units.",
+  "type": "UnitFactory",
+  "unitType": "hecodium-shield",
+  "size": 4,
+  "produceTime": 5000,
+  "maxSpawn": 1,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        {"item": "silicon", "amount": 25},
+        {"item": "hecodium", "amount": 50}
+      ]
+    }
+  },
+  "category": "units",
+  "research": "spirit-factory",
+  "requirements": [
+    { "item": "hecodium", "amount": 40 },
+    { "item": "silicon", "amount": 40 },
+    { "item": "titanium", "amount": 20 }
+  ]
+}

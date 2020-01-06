@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Flak Armory",
+	"description": "Creates Flack Rounds.",
+	"outputItem": {"item": "scrap-flak", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 1 },
+				{ "item": "lead", "amount": 3}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "bullet-armory",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.5
+}

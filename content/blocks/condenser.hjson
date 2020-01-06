@@ -1,0 +1,33 @@
+{
+	type: SolidPump
+	name: Condenser
+	description: Slowly condensates water from the atmosphere.
+		
+	size: 4
+	health: 128
+	pumpAmount: 0.13
+	liquidCapacity: 256.0
+	rotateSpeed: 0.0
+		
+	hasPower: false
+		
+	result: water
+		
+	requirements: [
+		{ 
+			item: copper
+			amount: 128 
+		},
+		{
+			item: lead 
+			amount: 64
+		},
+		{
+			item: metaglass 
+			amount: 32
+		}
+	]
+	
+	category: production
+	alwaysUnlocked: true
+}

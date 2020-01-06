@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Bullet Armory",
+	"description": "Creates Basic Bullets to damage enemies.",
+	"outputItem": {"item": "lead-round", "amount": 2},
+	"size": 2,
+	"hasPower": false,
+	"hasItems": true,
+	"hasLiquids": false,
+	"liquidCapacity": 60,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 },
+				{ "item": "lead", "amount": 2}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "duo",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.2
+}
